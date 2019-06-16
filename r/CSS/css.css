@@ -1,0 +1,414 @@
+.uprostred{
+    text-decoration-line: underline;
+    /*text-decoration-style: double;*/
+    text-align: center;
+    font-size: 500%;
+}
+.uprostred1{
+    /*text-decoration-style: double;*/
+    text-align: center;
+}
+.w{
+    color:white;
+}
+div:hover{
+    color: yellowgreen !important;
+    border-color: yellowgreen!important;
+}
+button:hover{
+    border-color: yellowgreen!important;
+    color: yellowgreen !important;
+}
+h2:hover{
+    border-color: yellowgreen!important;
+    color: yellowgreen !important;
+}
+h3:hover{
+    border-color: yellowgreen!important;
+    color: yellowgreen !important;
+}
+/*
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+*/
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hh1{
+    margin-left: 3em;
+    margin-right: 3em;
+    display: block;
+}
+/*NEMAZAT, VYTVÁŘÍ ZAJÍMAVÉ TEXTURY PRO PODPŘÍBĚHY*/
+.b1 {
+    background-image: url("../../img/b1.jpg") !important;
+background-size: cover;
+}
+.b2 {
+    background-image: url("../../img/b2.jpg") !important;
+background-size: cover;
+}
+.b3 {
+    background-image: url("../../img/b3.jpg") !important;
+background-size: cover;
+}
+.b4 {
+    background-image: url("../../img/b4.jpg") !important;
+background-size: cover;
+}
+.b5 {
+    background-image: url("../../img/b5.jpg") !important;
+background-size: cover;
+}
+.b6 {
+    background-image: url("../../img/b6.jpg") !important;
+background-size: cover;
+}
+.b7 {
+    background-image: url("../../img/b7.jpg") !important;
+background-size: cover;
+}
+.bc1 {
+    background-image: url("../../img/bc1.jpg") !important;
+background-size: cover;
+}
+.bc2 {
+    background-image: url("../../img/bc2.jpg") !important;
+background-size: cover;
+}
+.bc3 {
+    background-image: url("../../img/bc3.jpg") !important;
+background-size: cover;
+}
+.bc4 {
+    background-image: url("../../img/bc4.jpg") !important;
+background-size: cover;
+}
+.d1 {
+    background-image: url("../../img/d1.jpg") !important;
+background-size: cover;
+}
+.d2 {
+    background-image: url("../../img/d2.jpg") !important;
+background-size: cover;
+}
+.d3 {
+    background-image: url("../../img/d3.jpg") !important;
+background-size: cover;
+}
+.d4 {
+    background-image: url("../../img/d4.jpg") !important;
+background-size: cover;
+}
+.d5 {
+    background-image: url("../../img/d5.jpg") !important;
+background-size: cover;
+}
+.f1 {
+    background-image: url("../../img/f1.jpg") !important;
+background-size: cover;
+}
+.f2 {
+    background-image: url("../../img/f2.jpg") !important;
+background-size: cover;
+}
+.f3 {
+    background-image: url("../../img/f3.jpg") !important;
+background-size: cover;
+}
+.f4 {
+    background-image: url("../../img/f4.jpg") !important;
+background-size: cover;
+}
+.f5 {
+    background-image: url("../../img/f5.jpg") !important;
+background-size: cover;
+}
+.f6 {
+    background-image: url("../../img/f6.jpg") !important;
+background-size: cover;
+}
+.i1 {
+    background-image: url("../../img/i1.jpg") !important;
+background-size: cover;
+}
+.i2 {
+    background-image: url("../../img/i2.jpg") !important;
+background-size: cover;
+}
+.i3 {
+    background-image: url("../../img/i3.jpg") !important;
+background-size: cover;
+}
+.i4 {
+    background-image: url("../../img/i4.jpg") !important;
+background-size: cover;
+}
+.i5 {
+    background-image: url("../../img/i5.jpg") !important;
+background-size: cover;
+}
+.ix1 {
+    background-image: url("../../img/ix1.jpg") !important;
+background-size: cover;
+}
+.ix2 {
+    background-image: url("../../img/ix2.jpg") !important;
+background-size: cover;
+}
+.ix3 {
+    background-image: url("../../img/ix3.jpg") !important;
+background-size: cover;
+}
+.ix4 {
+    background-image: url("../../img/ix4.jpg") !important;
+background-size: cover;
+}
+.ix5 {
+    background-image: url("../../img/ix5.jpg") !important;
+background-size: cover;
+}
+.h1 {
+    background-image: url("../../img/h1.jpg") !important;
+background-size: cover;
+}
+.h2 {
+    background-image: url("../../img/h2.jpg") !important;
+background-size: cover;
+}
+.h3 {
+    background-image: url("../../img/h3.jpg") !important;
+background-size: cover;
+}
+.h4 {
+    background-image: url("../../img/h4.jpg") !important;
+background-size: cover;
+}
+.h5 {
+    background-image: url("../../img/h5.jpg") !important;
+background-size: cover;
+}
+.h6 {
+    background-image: url("../../img/h6.jpg") !important;
+background-size: cover;
+}
+.h7 {
+    background-image: url("../../img/h7.jpg") !important;
+background-size: cover;
+}
+.h8 {
+    background-image: url("../../img/h8.jpg") !important;
+background-size: cover;
+}
+.n1 {
+    background-image: url("../../img/n1.jpg") !important;
+background-size: cover;
+}
+.n2 {
+    background-image: url("../../img/n2.jpg") !important;
+background-size: cover;
+}
+.n3 {
+    background-image: url("../../img/n3.jpg") !important;
+background-size: cover;
+}
+.n4 {
+    background-image: url("../../img/n4.jpg") !important;
+background-size: cover;
+}
+.n5 {
+    background-image: url("../../img/n5.jpg") !important;
+background-size: cover;
+}
+.n6 {
+    background-image: url("../../img/n6.jpg") !important;
+background-size: cover;
+}
+.p1 {
+    background-image: url("../../img/p1.jpg") !important;
+background-size: cover;
+}
+.p2 {
+    background-image: url("../../img/p2.jpg") !important;
+background-size: cover;
+}
+.p3 {
+    background-image: url("../../img/p3.jpg") !important;
+background-size: cover;
+}
+.p4 {
+    background-image: url("../../img/p4.jpg") !important;
+background-size: cover;
+}
+.p5 {
+    background-image: url("../../img/p5.jpg") !important;
+background-size: cover;
+}
+.p6 {
+    background-image: url("../../img/p6.jpg") !important;
+background-size: cover;
+}
+.p7 {
+    background-image: url("../../img/p7.jpg") !important;
+background-size: cover;
+}
+.p8 {
+    background-image: url("../../img/p8.jpg") !important;
+background-size: cover;
+}
+.p9 {
+    background-image: url("../../img/p9.jpg") !important;
+background-size: cover;
+}
+.p10 {
+    background-image: url("../../img/p10.jpg") !important;
+background-size: cover;
+}
+.v1 {
+    background-image: url("../../img/v1.jpg") !important;
+background-size: cover;
+}
+.v2 {
+    background-image: url("../../img/v2.jpg") !important;
+background-size: cover;
+}
+.v3 {
+    background-image: url("../../img/v3.jpg") !important;
+background-size: cover;
+}
+.v4 {
+    background-image: url("../../img/v5.jpg") !important;
+background-size: cover;
+}
+.v6 {
+    background-image: url("../../img/v6.jpg") !important;
+background-size: cover;
+}
+.v7 {
+    background-image: url("../../img/v7.jpg") !important;
+background-size: cover;
+}
+.v8 {
+    background-image: url("../../img/v8.jpg") !important;
+background-size: cover;
+}
+.sh1 {
+    background-image: url("../../img/sh1.jpg") !important;
+background-size: cover;
+}
+.sh2 {
+    background-image: url("../../img/sh2.jpg") !important;
+background-size: cover;
+}
+.sh3 {
+    background-image: url("../../img/sh3.jpg") !important;
+background-size: cover;
+}
+.sh4 {
+    background-image: url("../../img/sh4.jpg") !important;
+background-size: cover;
+}
+.sh5 {
+    background-image: url("../../img/sh5.jpg") !important;
+background-size: cover;
+}
+.sh6 {
+    background-image: url("../../img/sh7.jpg") !important;
+background-size: cover;
+}
+.sh7 {
+    background-image: url("../../img/sh8.jpg") !important;
+background-size: cover;
+}
+.sh8 {
+    background-image: url("../../img/sh9.jpg") !important;
+background-size: cover;
+}
+.sh9 {
+    background-image: url("../../img/sh10.jpg") !important;
+background-size: cover;
+}
+.s1 {
+    background-image: url("../../img/s1.jpg") !important;
+background-size: cover;
+}
+.s2 {
+    background-image: url("../../img/s2.jpg") !important;
+background-size: cover;
+}
+.s3 {
+    background-image: url("../../img/s3.jpg") !important;
+background-size: cover;
+}
+.s4 {
+    background-image: url("../../img/s4.jpg") !important;
+background-size: cover;
+}
+.s5 {
+    background-image: url("../../img/s5.jpg") !important;
+background-size: cover;
+}
+.s6 {
+    background-image: url("../../img/s6.jpg") !important;
+background-size: cover;
+}
+.ss1 {
+    background-image: url("../../img/ss1.jpg") !important;
+background-size: cover;
+}
+.ss2 {
+    background-image: url("../../img/ss2.jpg") !important;
+background-size: cover;
+}
+.ss3 {
+    background-image: url("../../img/ss3.jpg") !important;
+background-size: cover;
+}
+.ss4 {
+    background-image: url("../../img/ss4.jpg") !important;
+background-size: cover;
+}
+.ss5 {
+    background-image: url("../../img/ss5.jpg") !important;
+background-size: cover;
+}
+.ss6 {
+    background-image: url("../../img/ss6.jpg") !important;
+background-size: cover;
+}
+.ss7 {
+    background-image: url("../../img/ss7.jpg") !important;
+background-size: cover;
+}
+.z1 {
+    background-image: url("../../img/z1.jpg") !important;
+background-size: cover;
+}
+.z2 {
+    background-image: url("../../img/z2.jpg") !important;
+background-size: cover;
+}
+.z3 {
+    background-image: url("../../img/z3.jpg") !important;
+background-size: cover;
+}
+.z4 {
+    background-image: url("../../img/z4.jpg") !important;
+background-size: cover;
+}
+.z5 {
+    background-image: url("../../img/z5.jpg") !important;
+background-size: cover;
+}
+.z6 {
+    background-image: url("../../img/z6.jpg") !important;
+background-size: cover;
+}
+.z7{
+    background-image: url("../../img/z7.jpg") !important;
+background-size: cover;
+}

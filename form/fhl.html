@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>League of Legends - Zpětná vazba</title>
+  <meta name="description" content="League of Legends - Zpětná vazba, hlášení o problému">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="../hl/Ces.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark p-3
+     sticky-top w3-border-bottom w3-border-amber tz">
+    <button class="navbar-toggler hidden-lg-up tz" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+      aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">&#9776;</button>
+    <div class="collapse navbar-collapse tz" id="collapsibleNavId">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <div class="ns">
+			<a class="nav-link tz" href="../hl/hl.html">Hl. Stránka   <br>
+				<i class="fas fa-map-marked-alt i"></i>
+            </a>
+          </div>
+        </li>
+        <li class="nav-item tz">
+          <div class="ns">
+            <a class="nav-link tz" href="../r/hlr/rhl.html">Regiony <br>
+              <i class="fas fa-globe-europe i1">
+              </i>
+            </a>
+          </div>
+        </li>
+        <li class="nav-item tz">
+          <div class="ns">
+            <a class="nav-link tz" href="../s/hls/shl.html">Šampioni <br>
+              <i class="fas fa-male i"></i>
+            </a>
+          </div>
+        </li>
+        <li class="nav-item tz">
+          <div class="ns">
+            <a class="nav-link tz" href="../n/nln/nhl.html">Novinky <br>
+              <i class="fas fa-folder-open i1"></i>
+            </a>
+          </div>
+        </li>
+        <li class="nav-item tz">
+          <div class="ns">
+            <a class="nav-link tz" href="../form/fhl.html">Formulář <br>
+              <i class="fas fa-scroll i1"></i>
+            </a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2 tz" type="text" id="myInput" onkeyup="myFunction()"
+          placeholder="Search for names.." title="Zadejte jméno šamiona, regionu či dalšího světa">
+      </form>
+      <div>
+        <a href="Sfhl.html" title="Tmavý a světlý mód"><i class="fas fa-adjust i1 ns"></i>
+          <!--  Pro tmavý motiv
+            <i class="fas fa-circle i1 ns">           
+              -->
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container tz text-center">
+    <h1 class="text-center tz">Zpětná vazba</h1>
+    <form action="" method="POST" class="form-horizontal" role="form" class="tz">
+      <div class="form-group">
+      </div>
+      <!-- Jméno studenta -->
+      <div class="form-group">
+        <label for="jmeno" class="nn tz">Nickname</label>
+        <div class="col-sm-4 fcenter">
+          <input type="text" name="jmeno" id="jmeno" class="form-control tz fcenter" required="required"
+            placeholder="Zadej křestní jméno" title="">
+        </div>
+      </div>
+      <!-- Příjmení studenta -->
+      <div class="form-group">
+        <label for="prijmeni" class="nn tz">Popište krátce o problému</label>
+        <div class="col-sm-4 fcenter">
+          <input type="text" name="prijmeni" id="prijmeni" class="form-control tz fcenter" required="required"
+            placeholder="" maxlength="20">
+        </div>
+      </div>
+      <!-- Pohlaví -->
+      <div class="form-group">
+        <label class="nn tz">Použili jste při tom světlý či tmavý mód stránek?</label>
+        <div class="col-sm-8 fcenter">
+          <div class="radio ">
+            <label for="muz">
+              <input type="radio" name="pohlavi" id="muz" value="muž">
+              Světlý
+            </label>
+          </div>
+          <div class="radio ">
+            <label for="zena">
+              <input type="radio" name="pohlavi" id="zena" value="žena">
+              Tmavý
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+          <label class="nn tz">Na jakém zařízení jste v době problému byli?</label>
+          <div class="col-sm-8 fcenter">
+            <div class="radio ">
+              <label for="muz">
+                <input type="radio" name="pohlavi" id="muz" value="muž">
+                Počítač
+              </label>
+            </div>
+            <div class="radio ">
+              <label for="zena">
+                <input type="radio" name="pohlavi" id="zena" value="žena">
+                Tablet
+              </label>
+            </div>
+            <div class="radio ">
+                <label for="zena">
+                  <input type="radio" name="pohlavi" id="zena" value="žena">
+                  Mobil
+                </label>
+              </div>
+          </div>
+        </div>
+      <!-- Studijní obor -->
+      <div class="form-group tz">
+        <label for="pr" class=" nn">Problém se objevil...</label>
+        <div class="col-sm-4 tz fcenter">
+          <select name="obor" id="obor" class="form-control tz4">
+            <option value="IT">Na hlavních stránkách</option>
+            <option value="SV">Na stránkách se specifickými objekty</option>
+            <option value="UM">Někde jinde
+            </option>
+          </select>
+        </div>
+      </div>
+      <!-- Preference prohlížečů -->
+      <div class="form-group">
+        <label class="nn">Jaký typ prohlížeče jste použili když se problém objevil ?</label>
+        <div class="col-sm-4 fcenter">
+          <div class="checkbox container fcenter">
+            <label>
+              <input type="checkbox" value="IE">Internet Explorer</label>
+          </div>
+          <p> </p>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="Firefox">Mozilla Firefox</label>
+          </div>
+          <p> </p>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="Chrome">Google Chrome</label>
+          </div>
+          <p> </p>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="Safari">Safari</label>
+          </div>
+          <p> </p>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="jiný">jiný </label>
+          </div>
+        </div>
+      </div>
+      <!-- Poznámka -->
+      <div class="form-group">
+        <label for="poznamka" class="col-sm-2 tz nn">Poznámka o problému</label>
+        <div class="col-sm-8 fcenter">
+          <textarea name="poznamka" id="poznamka" class="form-control tz fcenter" rows="5"></textarea>
+        </div>
+      </div>
+      <!-- Odeslat -->
+      <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2 fcenter">
+          <button type="submit" class="btn btn-primary tz">Odeslat</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <footer class="p-3 mt-5 tz w3-border-top text-center">
+    <h2>&copy; Filip Ostárek 2019</h2>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "200px";
+      document.getElementById("main").style.marginLeft = "200px";
+    }
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
+  </script>
+  <script>
+    function myFunction() {
+      var input, filter, ul, li, a, i, txtValue;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("myUL");
+      li = ul.getElementsByTagName("li");
+      for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+        } else {
+          li[i].style.display = "none";
+        }
+      }
+    }
+  </script>
+  <script>
+    $(function () {
+      $("section").hide();
+      $("h2").on("click", function () {
+        $(this).nextUntil("h2").toggle(500);
+      });
+    })
+  </script>
+</body>
+
+</html>

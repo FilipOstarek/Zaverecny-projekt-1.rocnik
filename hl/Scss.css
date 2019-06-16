@@ -1,0 +1,240 @@
+body { 
+    background-image: url("../img/SBG1.jpg")!important;
+    background-attachment: fixed;
+  } 
+.m{
+    margin-right: 5em;
+    margin-left: 5em;
+    color:black;
+}
+.fcenter{
+    margin-right: auto;
+    margin-left: auto;
+}
+.v{
+    margin: auto;
+    color:black;
+}
+.v1{
+    margin: auto;
+}
+.karta{
+    color: lightgray;
+}
+/*(i,i1) místo center*/
+.i{
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 0.5em;
+}
+.i1{
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0.5em;
+}
+.i2{
+    text-align: center;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    margin-top: 0.5em;
+}
+.i3{
+    text-align: center;
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-top: 0.5em;
+}
+nav{
+    border-color:darkcyan;
+    border-width: 5px;
+}
+.tz{
+    background-image: url("../img/SBG1.jpg")!important;
+    background-attachment: fixed;
+    color: darkcyan !important;
+    border-color: darkcyan !important;
+    border-width: 5px;
+}
+.tz0{
+    color: darkcyan !important;
+    border-color: darkcyan !important;
+    border-width: 5px;
+}
+.tz1{
+    background-attachment: fixed;
+    color: darkcyan;
+    background-image: url("../img/SBG1.jpg"); 
+    line-height: 2;
+}
+.tz2{
+    position: fixed;
+    top: 25px;
+}
+/*
+.bi{
+    border-image:url("../img/SBG1.jpg")30 fill!important;
+}
+*/
+.fcenter{
+    margin-right: auto;
+    margin-left: auto;
+}
+.tz4{
+    background-image: url("../img/SBG1.jpg")!important;
+    background-attachment: fixed;
+    border-color: darkcyan !important;
+    color: graye;
+}
+.h{
+    margin-left: 5em;
+    margin-right: 5em;
+    display: block;
+}
+a:hover{
+    border-image:url("../img/SBG1.jpg")fill!important;
+    color: maroon;
+    text-decoration-line: none;
+    border-color: maroon !important;
+
+}
+
+div img:hover{
+    border-color: maroon!important;
+}
+nav a:hover{
+    border-color: maroon!important;
+    color: maroon !important;
+}
+table, th, td {
+    border: 5px solid darkcyan;
+    border-collapse: collapse;
+  }
+#myUL{
+    text-decoration: none;
+    list-style-type: none;
+}
+.ns{
+    font-size: 150%;
+  }
+.nn{
+    font-size: 125%;
+}
+div a img:hover{
+    color: maroon !important;
+    border-color: maroon !important;
+}
+
+button i:hover{
+    color: maroon !important;
+    border-color: maroon !important;
+}
+nav form input:hover{
+    border-color: maroon!important;
+    color: maroon !important;
+}
+body div div div :hover{
+    border-color:maroon!important;
+    color: maroon !important;
+}
+textarea :hover{
+    color: maroon !important;
+    border-color: maroon !important;
+}
+/*
+div div div a:hover{
+    color: maroon !important;
+}
+*/
+.z{
+color: maroon;
+}
+.nadpis{
+    text-align: center;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centeredi{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+hr{
+    border-width: 5px;
+}
+.b{
+    border-width: 5px !important;
+}
+.or{
+    margin: 1em;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+[class*="i1"] {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 0.5em;
+  }
+ [class*="i2"] {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 0.5em;
+  }
+  [class*="i3"] {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 0.5em;
+  }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+[class*="i1"] {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 0.5em;
+  }
+ [class*="i2"] {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 0.5em;
+  }
+  [class*="i3"] {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 0.5em;
+  }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    [class*="i1"] {
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-top: 0.5em;
+      }
+     [class*="i2"] {
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-top: 0.5em;
+      }
+      [class*="i3"] {
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-top: 0.5em;
+      }
+}
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+  }

@@ -1,0 +1,614 @@
+
+.uprostred{
+    text-decoration-line: underline;
+    /*text-decoration-style: double;*/
+    text-align: center;
+    font-size: 500%;
+}
+.uprostred1{
+    /*text-decoration-style: double;*/
+    text-align: center;
+}
+.w{
+    color:white;
+}
+.black{
+    color:black;
+}
+div:hover{
+    color: maroon !important;
+    border-color: maroon!important;
+}
+button:hover{
+    border-color: maroon!important;
+    color: maroon !important;
+}
+h2:hover{
+    border-color: maroon!important;
+    color: maroon !important;
+}
+h3:hover{
+    border-color: maroon!important;
+    color: maroon !important;
+}
+div a :hover{
+    color: maroon !important;
+    border-color: maroon!important;
+}
+/*NEMAZAT, VYTVÁŘÍ ZAJÍMAVÉ TEXTURY PRO PODPŘÍBĚHY*/
+.aatrox {
+    background-image: url("../../img/aatrox.jpg") !important;
+background-size: cover;
+}
+.ahri{
+    background-image: url("../../img/ahri.jpg") !important;
+background-size: cover;
+}
+.akali{
+    background-image: url("../../img/akali.jpg") !important;
+background-size: cover;
+}
+.alistar{
+    background-image: url("../../img/alistar.jpg") !important;
+background-size: cover;
+}
+.amumu{
+    background-image: url("../../img/amumu.jpg") !important;
+background-size: cover;
+}
+.anavia{
+    background-image: url("../../img/anivia.jpg") !important;
+background-size: cover;
+}
+.annie{
+    background-image: url("../../img/annie.jpg") !important;
+background-size: cover;
+}
+.ashe{
+    background-image: url("../../img/ashe.jpg") !important;
+background-size: cover;
+}
+.aurelion{
+    background-image: url("../../img/aurelion_sol.jpg") !important;
+background-size: cover;
+}
+.azir{
+    background-image: url("../../img/azir.jpg") !important;
+background-size: cover;
+}
+.bard{
+    background-image: url("../../img/bard.jpg") !important;
+background-size: cover;
+}
+.blitz{
+    background-image: url("../../img/blitzcrank.jpg") !important;
+background-size: cover;
+}
+.brand{
+    background-image: url("../../img/brand.jpg") !important;
+background-size: cover;
+}
+.braum{
+    background-image: url("../../img/braum.jpg") !important;
+background-size: cover;
+}
+.caitlyn{
+    background-image: url("../../img/caitlyn.jpg") !important;
+background-size: cover;
+}
+.camile{
+    background-image: url("../../img/camille.jpg") !important;
+background-size: cover;
+}
+.cass{
+    background-image: url("../../img/cassiopea.jpg") !important;
+background-size: cover;
+}
+.corki{
+    background-image: url("../../img/corki.jpg") !important;
+background-size: cover;
+}
+.darius{
+    background-image: url("../../img/darius.jpg") !important;
+background-size: cover;
+}
+.diana{
+    background-image: url("../../img/diana.jpg") !important;
+background-size: cover;
+}
+.mundo{
+    background-image: url("../../img/dr_mundo.jpg") !important;
+background-size: cover;
+}
+.draven{
+    background-image: url("../../img/draven.jpg") !important;
+background-size: cover;
+}
+.ekko{
+    background-image: url("../../img/ekko.jpg") !important;
+background-size: cover;
+}
+.elise{
+    background-image: url("../../img/elise.jpg") !important;
+background-size: cover;
+}
+.evelyn{
+    background-image: url("../../img/evelynn.jpg") !important;
+background-size: cover;
+}
+.ezreal{
+    background-image: url("../../img/ezreal.jpg") !important;
+background-size: cover;
+}
+.fiddle{
+    background-image: url("../../img/fiddle.jpg") !important;
+background-size: cover;
+}
+.fiora{
+    background-image: url("../../img/fiora.jpg") !important;
+background-size: cover;
+}
+.fiz{
+    background-image: url("../../img/fizz.jpg") !important;
+background-size: cover;
+}
+.galio{
+    background-image: url("../../img/galio.jpg") !important;
+background-size: cover;
+}
+.gangplank{
+    background-image: url("../../img/gangplank.jpg") !important;
+background-size: cover;
+}
+.garen{
+    background-image: url("../../img/garen.jpg") !important;
+background-size: cover;
+}
+.gnar{
+    background-image: url("../../img/gnar.jpg") !important;
+background-size: cover;
+}
+.gragas{
+    background-image: url("../../img/gragas.jpg") !important;
+background-size: cover;
+}
+.graves{
+    background-image: url("../../img/graves.jpg") !important;
+background-size: cover;
+}
+.guin{
+    background-image: url("../../img/quinn.jpg") !important;
+background-size: cover;
+}
+.heca{
+    background-image: url("../../img/hecarim.jpg") !important;
+background-size: cover;
+}
+.heimer{
+    background-image: url("../../img/heimenginder.jpg") !important;
+background-size: cover;
+}
+.cho{
+    background-image: url("../../img/chogath.jpg") !important;
+background-size: cover;
+}
+.ilaoi{
+    background-image: url("../../img/illaoi.jpg") !important;
+background-size: cover;
+}
+.irelia{
+    background-image: url("../../img/irelia.jpg") !important;
+background-size: cover;
+}
+.ivern{
+    background-image: url("../../img/ivern.jpg") !important;
+background-size: cover;
+}
+.jana{
+    background-image: url("../../img/janna.jpg") !important;
+background-size: cover;
+}
+.jarvan{
+    background-image: url("../../img/jarvan.jpg") !important;
+background-size: cover;
+}
+.jax{
+    background-image: url("../../img/jax.jpg") !important;
+background-size: cover;
+}
+.jayce{
+    background-image: url("../../img/jayce.jpg") !important;
+background-size: cover;
+}
+.jhin{
+    background-image: url("../../img/jhin.jpg") !important;
+background-size: cover;
+}
+.jinx{
+    background-image: url("../../img/jinx.jpg") !important;
+background-size: cover;
+}
+.kai{
+    background-image: url("../../img/kai.jpg") !important;
+background-size: cover;
+}
+.kalista{
+    background-image: url("../../img/kalista.jpg") !important;
+background-size: cover;
+}
+.karma{
+    background-image: url("../../img/karma.jpg") !important;
+background-size: cover;
+}
+.karthus{
+    background-image: url("../../img/karthus.jpg") !important;
+background-size: cover;
+}
+.kasa{
+    background-image: url("../../img/kassadin.jpg") !important;
+background-size: cover;
+}
+.kata{
+    background-image: url("../../img/katarina.jpg")!important;
+background-size: cover;
+}
+.kayle{
+    background-image: url("../../img/kayle.jpg") !important;
+background-size: cover;
+}
+.kayn{
+    background-image: url("../../img/kayn.jpg") !important;
+background-size: cover;
+}
+.kenen{
+    background-image: url("../../img/kennen.jpg") !important;
+background-size: cover;
+}
+.kha{
+    background-image: url("../../img/kha.jpg") !important;
+background-size: cover;
+}
+.kindred{
+    background-image: url("../../img/kindred.jpg") !important;
+background-size: cover;
+}
+.kled{
+    background-image: url("../../img/kled.jpg") !important;
+background-size: cover;
+}
+.kog{
+    background-image: url("../../img/kog.jpg") !important;
+background-size: cover;
+}
+.leblank{
+    background-image: url("../../img/leblank.jpg") !important;
+background-size: cover;
+}
+.lee{
+    background-image: url("../../img/lee.jpg") !important;
+background-size: cover;
+}
+.leona{
+    background-image: url("../../img/leona.jpg") !important;
+background-size: cover;
+}
+.liss{
+    background-image: url("../../img/lissandra.jpg") !important;
+background-size: cover;
+}
+.lucian{
+    background-image: url("../../img/lucian.jpg") !important;
+background-size: cover;
+}
+.lulu{
+    background-image: url("../../img/lulu.jpg") !important;
+    background-size: cover;
+}
+.lux{
+    background-image: url("../../img/lux.jpg") !important;
+background-size: cover;
+}
+.malp{
+    background-image: url("../../img/malphite.jpg") !important;
+background-size: cover;
+}
+.malza{
+    background-image: url("../../img/malzahar.jpg") !important;
+background-size: cover;
+}
+.maokai{
+    background-image: url("../../img/maokai.jpg") !important;
+background-size: cover;
+}
+.master{
+    background-image: url("../../img/master.jpg") !important;
+background-size: cover;
+}
+.miss{
+    background-image: url("../../img/miss.jpg") !important;
+background-size: cover;
+}
+.morde{
+    background-image: url("../../img/mordekaiser.jpg") !important;
+background-size: cover;
+}
+.morga{
+    background-image: url("../../img/kayle.jpg") !important;
+background-size: cover;
+}
+.nami{
+    background-image: url("../../img/nami.jpg") !important;
+background-size: cover;
+}
+.nasus{
+    background-image: url("../../img/nasus.jpg") !important;
+background-size: cover;
+}
+.nautilus{
+    background-image: url("../../img/nautilus.jpg") !important;
+background-size: cover;
+}
+.neeko{
+    background-image: url("../../img/neeko.jpg") !important;
+background-size: cover;
+}
+.nidale{
+    background-image: url("../../img/nidalee.jpg") !important;
+background-size: cover;
+}
+.nocturne{
+    background-image: url("../../img/nocturne.jpg") !important;
+background-size: cover;
+}
+.nunu{
+    background-image: url("../../img/nunu.jpg") !important;
+background-size: cover;
+}
+.olaf{
+    background-image: url("../../img/olaf.jpg") !important;
+background-size: cover;
+}
+.ori{
+    background-image: url("../../img/oriana.jpg") !important;
+background-size: cover;
+}
+.orn{
+    background-image: url("../../img/orn.jpg") !important;
+background-size: cover;
+}
+.pant{
+    background-image: url("../../img/pantheon.jpg") !important;
+background-size: cover;
+}
+.popy{
+    background-image: url("../../img/poppy.jpg") !important;
+background-size: cover;
+}
+.pyke{
+    background-image: url("../../img/pyke.jpg") !important;
+background-size: cover;
+}
+.rakan{
+    background-image: url("../../img/rakan.jpg") !important;
+background-size: cover;
+}
+.ramus{
+    background-image: url("../../img/rammus.jpg") !important;
+background-size: cover;
+}
+.rek{
+    background-image: url("../../img/reksai.jpg") !important;
+background-size: cover;
+}
+.rene{
+    background-image: url("../../img/renekton.jpg") !important;
+background-size: cover;
+}
+.rengar{
+    background-image: url("../../img/rengar.jpg") !important;
+background-size: cover;
+}
+.riven{
+    background-image: url("../../img/riven.jpg") !important;
+background-size: cover;
+}
+.rumble{
+    background-image: url("../../img/rumble.jpg") !important;
+background-size: cover;
+}
+.ryze{
+    background-image: url("../../img/ryze.jpg") !important;
+background-size: cover;
+}
+.seju{
+    background-image: url("../../img/sejuani.jpg") !important;
+background-size: cover;
+}
+.shako{
+    background-image: url("../../img/shaco.jpg") !important;
+background-size: cover;
+}
+.shen{
+    background-image: url("../../img/shen.jpg") !important;
+background-size: cover;
+}
+.shyva{
+    background-image: url("../../img/shyvana.jpg") !important;
+background-size: cover;
+}
+.singed{
+    background-image: url("../../img/singed.jpg") !important;
+background-size: cover;
+}
+.sion{
+    background-image: url("../../img/sion.jpg") !important;
+background-size: cover;
+}
+.sivir{
+    background-image: url("../../img/sivir.jpg") !important;
+background-size: cover;
+}
+.skarner{
+    background-image: url("../../img/skarner.jpg") !important;
+background-size: cover;
+}
+.sona{
+    background-image: url("../../img/sona.jpg") !important;
+background-size: cover;
+}
+.soraka{
+    background-image: url("../../img/soraka.jpg") !important;
+background-size: cover;
+}
+.swain{
+    background-image: url("../../img/swain.jpg") !important;
+background-size: cover;
+}
+.sylas{
+    background-image: url("../../img/sylas.jpg") !important;
+background-size: cover;
+}
+.syndra{
+    background-image: url("../../img/syndra.jpg") !important;
+background-size: cover;
+}
+.tahm{
+    background-image: url("../../img/tahm.jpg") !important;
+background-size: cover;
+}
+.tali{
+    background-image: url("../../img/talyah.jpg") !important;
+background-size: cover;
+}
+.talon{
+    background-image: url("../../img/talon.jpg") !important;
+background-size: cover;
+}
+.taric{
+    background-image: url("../../img/taric.jpg") !important;
+background-size: cover;
+}
+.teemo{
+    background-image: url("../../img/teemo.jpg") !important;
+background-size: cover;
+}
+.thresh{
+    background-image: url("../../img/thresh.jpg") !important;
+background-size: cover;
+}
+.trista{
+    background-image: url("../../img/tristana.jpg") !important;
+background-size: cover;
+}
+.trundle{
+    background-image: url("../../img/trundle.jpg") !important;
+background-size: cover;
+}
+.trynda{
+    background-image: url("../../img/tryndamere.jpg") !important;
+background-size: cover;
+}
+.twisted{
+    background-image: url("../../img/twisted.jpg") !important;
+background-size: cover;
+}
+.twitch{
+    background-image: url("../../img/twich.jpg") !important;
+background-size: cover;
+}
+.udyr{
+    background-image: url("../../img/udyr.jpg") !important;
+background-size: cover;
+}
+.urgot{
+    background-image: url("../../img/urgot.jpg") !important;
+background-size: cover;
+}
+.varus{
+    background-image: url("../../img/varus.jpg") !important;
+background-size: cover;
+}
+.vayne{
+    background-image: url("../../img/vayne.jpg") !important;
+background-size: cover;
+}
+.veigar{
+    background-image: url("../../img/veigar.jpg") !important;
+background-size: cover;
+}
+.vel{
+    background-image: url("../../img/vel.jpg") !important;
+background-size: cover;
+}
+.vi{
+    background-image: url("../../img/vi.jpg") !important;
+background-size: cover;
+}
+.viktor{
+    background-image: url("../../img/viktor.jpg") !important;
+background-size: cover;
+}
+.vlad{
+    background-image: url("../../img/vladimir.jpg") !important;
+background-size: cover;
+}
+.voli{
+    background-image: url("../../img/voliber.jpg") !important;
+background-size: cover;
+}
+.wukong{
+    background-image: url("../../img/wukong.jpg") !important;
+background-size: cover;
+}
+.ww{
+    background-image: url("../../img/warwick.jpg") !important;
+background-size: cover;
+}
+.xayah{
+    background-image: url("../../img/rakan.jpg") !important;
+background-size: cover;
+}
+.xerath{
+    background-image: url("../../img/xerath.jpg") !important;
+background-size: cover;
+}
+.xin{
+    background-image: url("../../img/xin zhao.jpg") !important;
+background-size: cover;
+}
+.yas{
+    background-image: url("../../img/yas.jpg") !important;
+background-size: cover;
+}
+.yorik{
+    background-image: url("../../img/yorick.jpg") !important;
+background-size: cover;
+}
+.yumi{
+    background-image: url("../../img/yummi.jpg") !important;
+background-size: cover;
+}
+.zac{
+    background-image: url("../../img/zac.jpg") !important;
+background-size: cover;
+}
+.zed{
+    background-image: url("../../img/zed.jpg") !important;
+background-size: cover;
+}
+.zigs{
+    background-image: url("../../img/ziggs.jpg") !important;
+background-size: cover;
+}
+.zilean{
+    background-image: url("../../img/zilean.jpg") !important;
+background-size: cover;
+}
+.zoe{
+    background-image: url("../../img/zoe.jpg") !important;
+background-size: cover;
+}
+.zyra{
+    background-image: url("../../img/zyra.jpg") !important;
+    background-size: cover;
+}
