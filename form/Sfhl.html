@@ -80,7 +80,7 @@
 
   <div class="container tz text-center">
     <h1 class="text-center tz ">Zpětná vazba</h1>
-    <form action="" method="POST" class="form-horizontal" role="form" class="tz">
+    <form method="POST" class="form-horizontal tz" role="form">
       <div class="form-group">
       </div>
       <!-- Jméno studenta -->
@@ -104,14 +104,14 @@
         <label class="nn tz">Použili jste při tom světlý či tmavý mód stránek?</label>
         <div class="col-sm-8 fcenter">
           <div class="radio ">
-            <label for="muz">
-              <input type="radio" name="pohlavi" id="muz" value="muž">
+            <label for="S">
+              <input type="radio" name="mod" id="S" value="S">
               Světlý
             </label>
           </div>
           <div class="radio ">
-            <label for="zena">
-              <input type="radio" name="pohlavi" id="zena" value="žena">
+            <label for="T">
+              <input type="radio" name="mod" id="T" value="T">
               Tmavý
             </label>
           </div>
@@ -121,20 +121,20 @@
           <label class="nn tz">Na jakém zařízení jste v době problému byli?</label>
           <div class="col-sm-8 fcenter">
             <div class="radio ">
-              <label for="muz">
-                <input type="radio" name="pohlavi" id="muz" value="muž">
+              <label for="PC">
+                <input type="radio" name="zarizeni" id="PC" value="PC">
                 Počítač
               </label>
             </div>
-            <div class="radio ">
-              <label for="zena">
-                <input type="radio" name="pohlavi" id="zena" value="žena">
+            <div class="radio">
+              <label for="TB">
+                <input type="radio" name="zarizeni" id="TB" value="TB">
                 Tablet
               </label>
             </div>
             <div class="radio ">
-                <label for="zena">
-                  <input type="radio" name="pohlavi" id="zena" value="žena">
+                <label for="MB">
+                  <input type="radio" name="zarizeni" id="MB" value="MB">
                   Mobil
                 </label>
               </div>
@@ -142,7 +142,7 @@
         </div>
       <!-- Studijní obor -->
       <div class="form-group tz b">
-        <label for="pr" class="nn b">Problém se objevil...</label>
+        <label class="nn b">Problém se objevil...</label>
         <div class="col-sm-4 tz fcenter b">
           <select name="obor" id="obor" class="form-control tz4">
             <option value="IT">Na hlavních stránkách</option>
