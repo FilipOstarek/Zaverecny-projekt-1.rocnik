@@ -41,6 +41,10 @@ table, th, td {
     border: 1px solid goldenrod;
     border-collapse: collapse;
   }
+  div a i:hover{
+    color: yellowgreen !important;
+    border-color: yellowgreen!important;
+}
 .tzs{
     top: 20px;
     right: 20px;

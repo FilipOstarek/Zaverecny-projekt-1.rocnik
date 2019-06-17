@@ -35,7 +35,10 @@ div a:hover{
     color: yellowgreen !important;
     border-color: yellowgreen!important;
 }
-
+div a i:hover{
+    color: yellowgreen !important;
+    border-color: yellowgreen!important;
+}
 /*NEMAZAT, VYTVÁŘÍ ZAJÍMAVÉ TEXTURY PRO PODPŘÍBĚHY*/
 .aatrox {
     background-image: url("../../img/aatrox.jpg") !important;

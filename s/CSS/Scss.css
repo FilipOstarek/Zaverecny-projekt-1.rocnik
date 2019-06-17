@@ -35,6 +35,10 @@ div a :hover{
     color: maroon !important;
     border-color: maroon!important;
 }
+div a i:hover{
+    color: maroon !important;
+    border-color: maroon!important;
+}
 /*NEMAZAT, VYTVÁŘÍ ZAJÍMAVÉ TEXTURY PRO PODPŘÍBĚHY*/
 .aatrox {
     background-image: url("../../img/aatrox.jpg") !important;

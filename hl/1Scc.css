@@ -39,6 +39,10 @@ table, th, td {
     border: 5px solid darkcyan;
     border-collapse: collapse;
   }
+  div a i:hover{
+    color: maroon !important;
+    border-color: maroon!important;
+}
 .tz{
     background-image: url("../img/SBG1.jpg")!important;
     background-attachment: fixed;

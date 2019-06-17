@@ -111,6 +111,10 @@ table, th, td {
     border: 5px solid darkcyan;
     border-collapse: collapse;
   }
+  div a i:hover{
+    color: maroon !important;
+    border-color: maroon!important;
+}
 #myUL{
     text-decoration: none;
     list-style-type: none;
